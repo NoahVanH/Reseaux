@@ -1,0 +1,9 @@
+1) tout fermer en tâche de fond
+2) ouvrir google drive 
+3) être sur sa page home 
+4) START CAPTURE
+5) Cliquer + Nouveau (en haut a gauche)
+6) sélectionner nouveau dossier
+7) titre = emptyfolder
+8) valider
+9) STOP CAPTURE
