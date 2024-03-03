@@ -1,0 +1,27 @@
+(source chatgpt)
+Stockage de fichiers : 
+Permet de stocker différents types de fichiers tels que documents, images, vidéos, etc.
+
+Partage de fichiers : 
+Permet de partager des fichiers avec d'autres utilisateurs, en leur donnant différents niveaux d'accès (lecture seule, modification, commentaires, etc.).
+
+Collaboration en temps réel : 
+Permet à plusieurs utilisateurs de travailler sur un même fichier simultanément et de voir les modifications en temps réel.
+
+Synchronisation automatique : 
+Les fichiers ajoutés à Google Drive sont automatiquement synchronisés sur tous les appareils connectés.
+
+Sécurité des données : 
+Offre des options de sécurité telles que le chiffrement des données et la vérification en deux étapes.
+
+Accès hors ligne : 
+Permet d'accéder à certains fichiers même lorsque l'utilisateur n'est pas connecté à Internet.
+
+Intégration avec d'autres applications Google : 
+Permet d'ouvrir et de modifier des fichiers directement dans d'autres applications Google telles que Docs, Sheets et Slides.
+
+Recherche avancée : 
+Permet de rechercher des fichiers par nom, type, date de modification, etc.
+
+Création de formulaires : 
+Permet de créer des formulaires directement dans Google Drive à des fins de collecte de données.

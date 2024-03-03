@@ -1,0 +1,18 @@
+(ChatGPT)
+'ATTENTION' bien tout fermer en tache de fond
+Test de stockage de fichiers :
+
+Créez un nouveau dossier sur Google Drive.
+Ajoutez différents types de fichiers (1texte + 1image) dans ce dossier.
+Vérifiez que tous les fichiers sont correctement stockés et accessibles.
+
+Test de partage de fichiers :
+
+Partagez un fichier avec un autre utilisateur en lui donnant l'autorisation de modifier le fichier.
+Vérifiez que l'utilisateur peut accéder au fichier partagé et apporter des modifications.
+
+Test de création de formulaires :
+
+Créez un formulaire dans Google Drive.
+Ajoutez différents types de champs au formulaire.
+Vérifiez que le formulaire est correctement créé et peut être utilisé pour collecter des données.
