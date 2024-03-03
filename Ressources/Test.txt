@@ -1,5 +1,10 @@
 (ChatGPT)
 'ATTENTION' bien tout fermer en tache de fond
+
+Test création dossier vide : (EmptyFolder)
+
+Créez un nouveau dossier vide au nom 'emptyfolder'
+
 Test de stockage de fichiers :
 
 Créez un nouveau dossier sur Google Drive.
