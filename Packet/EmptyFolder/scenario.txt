@@ -1,3 +1,5 @@
+Site web Google drive
+OS: Ubuntu
 1) tout fermer en tâche de fond
 2) ouvrir google drive 
 3) être sur sa page home 
