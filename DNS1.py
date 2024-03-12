@@ -82,7 +82,7 @@ def plot_bar_chart(resolved_domains):
     counts = list(resolved_domains.values())
 
     plt.figure(figsize=(10, 6))
-    plt.barh(domains, counts, color='skyblue')  # Utilisation de barh() pour créer un diagramme à barres horizontales
+    plt.barh(domains, counts, color='darkblue')  # Utilisation de barh() pour créer un diagramme à barres horizontales
     plt.ylabel('Domain Names')  # Modification de l'étiquette de l'axe des ordonnées
     plt.xlabel('Number of Resolutions')
     plt.title('Resolved Domains in Packet Capture')
