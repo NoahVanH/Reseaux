@@ -1,3 +1,4 @@
+import sys
 import pyshark
 import matplotlib.pyplot as plt
 
@@ -28,8 +29,13 @@ def plot_authoritative_servers(authoritative_servers):
         print("Packet Numbers and Corresponding NS Servers:")
         for pkt_number, ns_servers in ns_info_list:
             print(f"Packet Number: {pkt_number}, NS Servers: {ns_servers}")
-
+            
 if __name__ == "__main__":
-    pcap_file = 'Packet/EmptyFolder/empty1.pcapng'  # Remplacer par le chemin de votre fichier de capture
+    if len(sys.argv) != 2:
+        print("Usage: python script.py pcapng_file")
+        sys.exit(1)
+
+    file = sys.argv[1]
+    pcap_file = 'Packet/' + file +'.pcapng'
     authoritative_servers = analyze_authoritative_servers(pcap_file)
     plot_authoritative_servers(authoritative_servers)

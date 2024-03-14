@@ -1,3 +1,4 @@
+import sys
 import pyshark
 import matplotlib.pyplot as plt
 
@@ -67,7 +68,7 @@ def count_resolved_domains(pcap_file):
     for pkt in cap:
         if hasattr(pkt, 'dns') and pkt.dns.qry_name:
             domain_name = pkt.dns.qry_name
-            print(domain_name)
+            #print(domain_name)
             resolved_domains[domain_name] = resolved_domains.get(domain_name, 0) + 1
 
     # Fermer la capture de fichiers
@@ -90,7 +91,12 @@ def plot_bar_chart(resolved_domains):
     plt.show()
 
 if __name__ == "__main__":
-    pcap_file = 'Packet/EmptyFolder/empty1.pcapng'  # Remplacer par le chemin de votre fichier de capture
+    if len(sys.argv) != 2:
+        print("Usage: python script.py pcapng_file")
+        sys.exit(1)
+
+    file = sys.argv[1]
+    pcap_file = 'Packet/' + file +'.pcapng'   # Remplacer par le chemin de votre fichier de capture
     # DNS 1
     resolved_domains = count_resolved_domains(pcap_file)
     plot_bar_chart(resolved_domains)

@@ -1,3 +1,4 @@
+import sys
 import pyshark
 import matplotlib.pyplot as plt
 
@@ -87,6 +88,11 @@ def plot_dns_query_types(dns_query_types):
     plt.show()
 
 if __name__ == "__main__":
-    pcap_file = 'Packet/EmptyFolder/empty1.pcapng'  # Remplacer par le chemin de votre fichier de capture
+    if len(sys.argv) != 2:
+        print("Usage: python script.py pcapng_file")
+        sys.exit(1)
+
+    file = sys.argv[1]
+    pcap_file = 'Packet/' + file +'.pcapng'
     dns_query_types = count_dns_query_types(pcap_file)
     plot_dns_query_types(dns_query_types)
