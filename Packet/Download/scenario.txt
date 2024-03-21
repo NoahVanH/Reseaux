@@ -1,4 +1,3 @@
-ici on indique le scénario étape par étape
 home:  https://drive.google.com/drive/my-drive
 1) tout fermer en tâche de fond
 2) ouvrir google drive 
