@@ -1,0 +1,10 @@
+ici on indique le scénario étape par étape
+lien : https://accounts.google.com/InteractiveLogin/signinchooser?continue=https%3A%2F%2Fdrive.google.com%2Fdrive%2F%3Ftab%3Doo&emr=1&followup=https%3A%2F%2Fdrive.google.com%2Fdrive%2F%3Ftab%3Doo&osid=1&passive=1209600&service=wise&ifkv=ARZ0qKKgtfWwo6cNXZFyeOZx-ho1sjK7g1VKrz4GRMsMZRN9mBaXd4UV87OYcqFKCY1mboxE2bm3NQ&theme=mn&ddm=0&flowName=GlifWebSignIn&flowEntry=ServiceLogin
+1) tout fermer en tâche de fond
+2) ouvrir google drive 
+3) être sur sa page 'lien' 
+4) START CAPTURE
+5) Sélectionner un compte Google
+6) entrer MDP
+7) Cliquer sur suivant
+8) STOP CAPTURE

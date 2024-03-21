@@ -1,0 +1,8 @@
+1) tout fermer en tâche de fond
+2) ouvrir google drive 
+3) être sur sa page Accueil
+4) START CAPTURE
+5) Cliquer sur Nouveau (en haut a gauche)
+6) Importer un fichier
+7) Choisir un fichier pdf
+8) STOP CAPTURE
