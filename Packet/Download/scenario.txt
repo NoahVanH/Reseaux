@@ -1,1 +1,11 @@
 ici on indique le scénario étape par étape
+home:  https://drive.google.com/drive/my-drive
+1) tout fermer en tâche de fond
+2) ouvrir google drive 
+3) être sur sa page home
+4) START CAPTURE
+5) Cliquer sur les 3 petits points verticaux de mon fichier pdf
+6) Cliquer sur télécharger le fichier
+7) Attendre pop up pour sélectionner l'emplacement
+8) valider
+9) STOP CAPTURE
