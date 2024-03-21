@@ -13,6 +13,9 @@ pcap_file="$1"
 
 # pcap_file = Folder/fichier SANS l'extension pcapgn
 # exemple = EmptyFolder/empty1
+
 python DNS1.py "$pcap_file"
+
+# attention si aucun print dans la console alors aucun NS dans le packet
 python DNS2.py "$pcap_file"
 python DNS4.py "$pcap_file"
