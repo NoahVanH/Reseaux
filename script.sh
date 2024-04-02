@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Vérifier si un fichier pcapng est spécifié en argument
+# Vérifier argument
 if [ $# -eq 0 ]; then
     echo "Usage: bash script.sh monfichier.pcapng"
     exit 1
 fi
 
-# Récupérer le nom du fichier pcapng passé en argument
+# Récupérer le nom du fichier
 pcap_file="$1"
 
 # Exécuter les trois fichiers Python avec le fichier pcapng en argument

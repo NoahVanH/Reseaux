@@ -60,7 +60,7 @@ dns_types = {
 def count_dns_query_types(pcap_file):
     dns_query_types = {}
 
-    # Ouvrir la capture de fichiers avec pyshark
+
     cap = pyshark.FileCapture(pcap_file, only_summaries=False)
 
     # Parcourir chaque paquet DNS dans la capture
@@ -72,7 +72,7 @@ def count_dns_query_types(pcap_file):
                 dns_query_types[dns_query_type_name] = 0
             dns_query_types[dns_query_type_name] += 1
 
-    # Fermer la capture de fichiers
+
     cap.close()
 
     return dns_query_types

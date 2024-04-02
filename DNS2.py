@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def analyze_authoritative_servers(pcap_file):
     authoritative_servers = {}
 
-    # Ouvrir la capture de fichiers avec pyshark
+
     cap = pyshark.FileCapture(pcap_file, only_summaries=False)
     # Parcourir chaque paquet DNS dans la capture
     for pkt in cap:
@@ -18,7 +18,6 @@ def analyze_authoritative_servers(pcap_file):
             
             authoritative_servers[domain_name].append((pkt_number, ns_servers))
 
-    # Fermer la capture de fichiers
     cap.close()
 
     return authoritative_servers
